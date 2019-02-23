@@ -24,9 +24,10 @@ html {
   box-sizing: border-box;
   background: hsl(217, 28%, 15%);
 }
-.container-body {
+.container-intro {
   width: 80%;
   margin: 0 auto;
+  height: 100vh;
 }
 .nav {
   width: 100%;
@@ -52,13 +53,11 @@ html {
   margin-right: 0;
 }
 .header {
-  border: 1px solid white;
   text-align: center;
 }
 .header__container {
   margin: 0 auto;
   width: 50%;
-  border: 1px solid white;
   line-height: 1.6;
 }
 .header__img {
