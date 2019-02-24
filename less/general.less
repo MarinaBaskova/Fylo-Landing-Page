@@ -10,9 +10,30 @@ html {
     box-sizing: border-box;
     background: @primary-dark-blue-1;
 }
-.container-intro {
+.container-intro, 
+.container-feature {
     width:80%;
     margin: 0 auto;
     height: 100vh;
+    
+}
+
+.container-intro {
+    position: relative;
+}
+
+
+.wavy {
+    width:100%;
+    z-index: 1;
+    bottom: 0;
+ 
+}
+
+main {
+    background: @primary-dark-blue-2;
+    position: relative;
+    z-index: 2;
+    top: -4px;
 
 }
