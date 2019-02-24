@@ -1,0 +1,27 @@
+
+
+.nav {
+    width:100%;
+    display:flex;
+    .flex(row, space-between, center);
+
+    &__logo{
+        margin-left: 1rem;
+
+    }
+    &__links{
+        margin-right: 1rem;
+
+    }
+    &__link{
+        font-size: @sub-header;
+        margin-right: 4rem;
+        font-family: "Open Sans";
+        text-decoration: none;
+        color:@links;
+        &--3 {
+            margin-right: 0;
+        }
+
+    }
+}
